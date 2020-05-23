@@ -36,7 +36,7 @@ function updateTable(results) {
     const remove = document.createElement("td");
     const removeLink = document.createElement("a");
     removeLink.innerText = "Remove";
-    removeLink.setAttribute("href", "#");
+    removeLink.setAttribute("href", `./pages/edit.html?id=${result.id}`);
     remove.appendChild(removeLink);
     row.appendChild(remove);
 
