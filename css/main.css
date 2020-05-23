@@ -12,11 +12,21 @@ h1 {
   width: 600px;
 }
 
+#main-container2 {
+  margin: 150px auto;
+  width: 100%;
+  text-align: center;
+}
+
 table {
   background-color: white;
   text-align: left;
   border-collapse: collapse;
   width: 100%;
+}
+form {
+  background-color: white;
+  border-collapse: collapse;
 }
 
 th,
